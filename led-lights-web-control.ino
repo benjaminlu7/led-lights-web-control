@@ -40,7 +40,7 @@ Table of Content
 ================================================================================================
 */
 byte mac[] = { 0x00, 0x1B, 0xEB, 0x41, 0x25, 0x06 };  // Enter MAC Address of 86Duino (Educake)
-IPAddress ip(192, 168, 100, 47);                      // Enter IP Address of 86Duino (Educake)
+IPAddress ip(192, 168, 100, 47);                      // Enter Static IP Address of 86Duino (Educake)
 EthernetServer web_server(80);                        // Creating a Web Server Using Port 80
 
 String http_request;                                  // This will stored the http request

@@ -3,7 +3,7 @@
 LED Lights (Web Control)
 ================================================================================================
 This project deals with LED Lights which is controlled by GPIO at pins 3, 4, and 5. It uses the 
-web server to control the LED from On to Off. 
+web server to control the LED from Off to On.
 
 @package        LED Light (Web Control)
 @copyright      Copyright (C) 2018. Benjamin Lu

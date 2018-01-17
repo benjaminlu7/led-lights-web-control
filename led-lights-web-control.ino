@@ -112,6 +112,7 @@ void loop() {
           client.println(".site-container { background: #ffffff; border: 0.063em solid #cccccc; clear: both; content: ""; display: table; margin: 0 auto; padding: 1.125em; width: 70.875em }");
           client.println(".site-header { margin-bottom: 1.125em; padding: 1.125em; }");
           client.println(".site-title, .site-description { margin: 0; padding: 0; text-align: center; }");
+          client.println(".site-address { margin: 0; padding: 0; text-align: center; }");
           client.println(".led-grid-system { text-align: center; }");
           client.println(".led-grid-system ul { float: left; list-style: none; margin: 0; padding: 0; width: 100%; }");
           client.println(".led-grid-system li { float: left; list-style: none; margin: 0; padding: 0; width: 33.33333333333333%; }");
@@ -123,6 +124,9 @@ void loop() {
           client.println("<header class=\"site-header\">");
           client.println("<h1 class=\"site-title\">86Duino (Educake)</h1>");
           client.println("<h3 class=\"site-description\">LED Lights (Web Control)</h3>");
+          client.println("<h4 class=\"site-address\">");
+          client.println(Ethernet.localIP());
+          client.println("</h4>");
           client.println("</header>");
           client.println("<div class=\"led-grid-system\">");
           client.println("<ul>");
